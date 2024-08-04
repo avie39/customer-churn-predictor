@@ -1,0 +1,137 @@
+body{
+    background-image: url('/static/body.png');
+    background-repeat:repeat-y;
+    background-size:auto;
+}
+
+.logo{
+    width: 85px;
+    height: 85px;
+    padding: -10px;
+    margin: -20px;
+    margin-left: 10px;
+}
+
+h2,h3,h4,h5,a,.logo,p,label,option{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label,h3,h4{
+    color: #dedada;
+}
+
+.login-text,.home-text,.message,.signup-text{
+    color:black;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.container {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.container img.logo {
+    margin-right: 700px; /* Add space between logo and list */
+}
+
+.container ul {
+    list-style-type: none;
+    margin: 0;
+    padding: -10px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.container ul li {
+    margin-right: 50px;
+}
+
+.container ul li:last-child {
+    margin-right: -100px; /* Remove margin from last item */
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #525757; 
+}
+
+.container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 0px 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.login-form {
+    background-color: rgba(222, 218, 218, 0.8);
+}
+
+.signup-form {
+    background-color: rgba(222, 218, 218, 0.8);
+}
+
+.about-form{
+    background-color: rgba(222, 218, 218, 0.8);
+}
+.about-form h4{
+    color: black;
+}

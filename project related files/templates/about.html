@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <img src="/static/logo.png" alt="ChurnSage Logo" class="logo">
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="form-container about-form">
+        <h4>Welcome to ChurnSage:</h4> 
+        <h5>At ChurnSage, we believe in empowering businesses with insights to anticipate and mitigate customer churn effectively. In an era where customer retention is paramount, we are your trusted ally in navigating the complexities of customer behavior.</h5>
+        <h4>Our Mission:</h4>
+        <h5>Our mission is simple yet profound: to revolutionize how businesses approach customer churn. By leveraging advanced data analytics and machine learning algorithms, we provide actionable predictions and strategies to help businesses retain their valuable customers.</h5>
+        <h4>What We Do</h4>
+        <h5>ChurnSage is a cutting-edge platform that harnesses the power of data science to predict customer churn before it happens. Our proprietary algorithms analyze vast datasets to identify patterns and trends indicative of potential churn. With ChurnSage, businesses can proactively intervene, engage, and retain customers, ultimately driving long-term growth and profitability.</h5>
+        <h4>Our Promise</h4>
+        <h5>At ChurnSage, we are committed to helping businesses thrive in a competitive landscape by reducing customer churn and maximizing customer lifetime value. With our expertise and innovative solutions, you can stay ahead of the curve and cultivate lasting relationships with your customers.</h5>
+        <h4>Join Us</h4>
+        <h5>Join the growing community of businesses that trust ChurnSage to predict tomorrow's customers today. Let us help you unlock the potential of your customer data and transform churn into loyalty. Get started with ChurnSage and embark on a journey towards sustainable growth and success.</h5>
+    </div>
+</body>
+</html>
